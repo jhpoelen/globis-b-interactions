@@ -126,7 +126,7 @@ However, all is not lost. Even, the [W3C](https://w3c.org) has realized that mos
 An intuitive example can be found below, in which a table is used that contains identifiers and their associated terms in separate columns.
 
 network id | sourceTaxonId | sourceTaxonName | sourceTaxonCommonName | interactionTypeId | interactionTypeName | targetTaxonId | targetTaxonName | targetTaxonCommonName
---- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | --- | ---
 1 | https://www.wikidata.org/wiki/Q83483 | Echinoidea | sea urchin | http://purl.obolibrary.org/obo/RO_0002471 | eatenBy | https://www.wikidata.org/wiki/Q41407 | Enhydra lutris | sea otter
 1 | https://www.wikidata.org/wiki/Q41407 | Enhydra lutris | sea otter | | huntedBy | https://www.wikidata.org/wiki/Q15978631 | Homo sapiens | humans
 … | … | … | …
@@ -139,7 +139,7 @@ Similarly, different researchers express their datasets in various format. As ca
 
 ### Best Practices
 
-Without have to repeat the many details on proposed best practices for biodiversity data (see Alex Hardisty manifesto, FAIR), and realizing that adoption of standards in a scattered community is a gradual process, the following best practices are proposed for the publication of species interaction datasets:
+Without having to repeat the many details on proposed best practices for biodiversity data (see Alex Hardisty manifesto, FAIR), and realizing that adoption of standards in a scattered community is a gradual process, the following best practices are proposed for the publication of species interaction datasets:
 
 0. first and foremost, try to re-use the data models, data formats and datasets of your colleagues.
 1. use the aggregate pair-wise interactions data model to organize your data
