@@ -1,6 +1,6 @@
 ## On Species Interaction Data Models and Data Formats
 
-[```Introduction```](#introduction) [```Definitions```](#definitions) [```Data Models```](#data-models) [```Data Formats```](#data-formats) [```Best Practices```](#best-practices) [```Summary```](#summary)
+[```Introduction```](#introduction) [```Definitions```](#definitions) [```Data Models```](#data-models) [```Data Formats```](#data-formats) [```Best Practices```](#best-practices) [```Bottlenecks```](#bottlenecks) [```Summary```](#summary)
 
 (early draft)
 
@@ -151,7 +151,14 @@ Without have to repeat the many details on proposed best practices for biodivers
 7. engage in discussions in existing workshops, conferences and professional societies on how to better structure your research data for re-use: don't wait for standard bodies to come up with the magic solutions.
 8. treat the datasets you produce and use just like you would a research paper
 
-The proposed best practices are to mitigate the current bottlenecks of establishing a comprehensive corpus of openly accessible, re-usable, publication of species interaction datasets, namely: 1. the under-utilization of readily available datasets 2. gridlock caused by researchers waiting for standards bodies to come up with data model/format solutions, while standards bodies are unable to access or articulate use cases. 3. the impracticality of implementing well intentioned and complex guidelines such as the [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples) by individual researchers or smaller institutions. 4. slow, expensive, error prone, non-reproducible, adhoc and manual peer review processes for data publications.
+### Bottlenecks
+
+The proposed best practices are to mitigate the current bottlenecks of establishing a comprehensive corpus of openly accessible, re-usable, publication of species interaction datasets, namely: 
+
+1. the under-utilization of readily available datasets 
+2. gridlock caused by researchers waiting for standards bodies to come up with data model/format solutions, while standards bodies are unable to access or articulate use cases. 
+3. the impracticality of implementing well intentioned and complex guidelines such as the [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples) by individual researchers or smaller institutions. 
+4. slow, expensive, error prone, non-reproducible, adhoc and manual peer review processes for data publications.
 
 ### Summary
 
