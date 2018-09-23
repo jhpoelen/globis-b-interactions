@@ -153,7 +153,7 @@ Without having to repeat the many details on proposed best practices for biodive
 
 ### Bottlenecks
 
-The proposed best practices are to mitigate the current bottlenecks of establishing a comprehensive corpus of openly accessible, re-usable, publication of species interaction datasets, namely: 
+The proposed best practices are to mitigate the current bottlenecks of establishing a comprehensive corpus of openly accessible and re-usable species interaction datasets, namely: 
 
 1. Under-utilization of readily available datasets. 
 2. Gridlock caused by researchers waiting for standards bodies to come up with data model/format solutions, while standards bodies are unable to access or articulate use cases. 
