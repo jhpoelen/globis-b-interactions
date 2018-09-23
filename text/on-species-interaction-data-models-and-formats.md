@@ -119,7 +119,19 @@ sub:Pubinfo {
 
 example from http://purl.org/np/RAzquSkwsTAZm61nReG6MOjXEXUx8fNVfdWnAzyn6sOhU via https://arxiv.org/pdf/1809.06532 .
 
-As you can see, unlike tabular formats, the RDF format is not designed for widespread common day use by humans. However, the format is machine readable and allows for flexible, yet clearly defined, data modeling and data integration.
+As you can see, unlike tabular formats, the RDF format is not designed for widespread common day use by humans. However, the format is machine readable and allows for flexible, yet clearly defined, data modeling and data integration. This makes the RDF format mainly practical for use by ontology developers, specialized software engineers and the software ecosystems they create and maintain.
+
+However, all is not lost. Even, the [W3C](https://w3c.org) has realized that most data is expressed in tables and that humans do not speak RDF natively. This lead to the creation of the "CSV on the Web Working Group". This working group produced w3c recommendations like ["Model for Tabular Data and Metadata on the Web"](https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/), ["Metadata Vocabulary for Tabular Data"](http://www.w3.org/TR/2015/REC-tabular-metadata-20151217/), ["Generating RDF from Tabular Data on the Web"](http://www.w3.org/TR/2015/REC-csv2rdf-20151217/). While it is not clear whether the proposed methods will find widespread adoption, it does show that tables and RDF can co-exist.
+
+An intuitive example can be found below, in which a table is used that contains identifiers and their associated terms in separate columns.
+
+network id | sourceTaxonId | sourceTaxonName | sourceTaxonCommonName | interactionTypeId | interactionTypeName | targetTaxonId | targetTaxonName | targetTaxonCommonName
+--- | --- | --- | ---
+1 | https://www.wikidata.org/wiki/Q83483 | Echinoidea | sea urchin | http://purl.obolibrary.org/obo/RO_0002471 | eatenBy | https://www.wikidata.org/wiki/Q41407 | Enhydra lutris | sea otter
+1 | https://www.wikidata.org/wiki/Q41407 | Enhydra lutris | sea otter | | huntedBy | https://www.wikidata.org/wiki/Q15978631 | Homo sapiens | humans
+… | … | … | …
+
+Additionally, an associated meta-table with the columns definitions can be provided to further increase the machine readability of species interaction data. Note that an identifier for ```huntedBy``` was intentionally left out to indicate that ids or names can be left blank if they are not yet known. The pragmatic approach of adopting these "hybrid" tabular formats is currently used by GloBI as a way to balance the pragmatism of tabular formats with the machine readability of identifiers.  
 
 As the examples above show, information structured in an aggregate pair-wise interaction model can be expressed in many different data formats, without losing too much of the information or structure. When attempting to combine many different species interaction datasets, care should be taken to adopt file formats that cater to the community that will work with the data. While it is tempting to choose settle on one specific file format, the reality is that many data formats should be used to cover all the possible use cases. This is the reason why many projects, including GloBI, offer various data formats: tsv/csv archives for scientists and data analysts, rdf/nquads for semantic web enthousiasts, darwin core archives for biodiversity aggregator infrastructures, neo4j data dumps for software engineers and JSON fragments for web developers. 
 
