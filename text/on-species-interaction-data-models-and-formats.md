@@ -1,10 +1,25 @@
 ## On species interaction data models and data formats.
 
+[```Introduction```](#introduction) [```Definitions```](#definitions) [```Data Models```](#data-models) [```Data Formats```](#data-formats) [```Best Practices```](#best-practices) [```Summary```](#summary)
+
 (early draft)
 
-A data model is a conceptual representation of pieces of information and how their relate to each other. A data format is used to physically store information. In the following section, we discuss commonly used species interaction data models and propose a model that is best suited to deal with the complex nature of species interaction data. Following, we discuss some data formats and propose best practices for publishing species interaction datasets. 
+### Definitions
 
-### Species Interaction Data Models.
+ * An interaction from http://purl.obolibrary.org/obo/RO_0002434 : ```A relationship that holds between two entities in which the processes executed by the two entities are causally connected.```
+ * A biotic interaction from http://purl.obolibrary.org/obo/RO_0002574 : ```An interaction relationship in which at least one of the partners is an organism and the other is either an organism or an abiotic entity with which the organism interacts.``` 
+ * A species interaction describes two species that interact, a specialized form of a biotic interaction.
+ * A data model is a conceptual representation of pieces of information and how their relate to each other. 
+ * A data format is used to physically store information. 
+
+### Introduction
+
+In the following sections, we discuss commonly used species interaction data models and propose a model that is best suited to deal with the complex nature of species interaction data. Following, we discuss some data formats, and propose best practices for publishing species interaction datasets to help increase the availability of species interaction datasets. 
+
+Please note that the phrase species interactions is commonly used in the community for what are technically _biotic_ interactions. However, rather than trying to convince existing practitioners to change their language, the phrase species interaction is used in the following text.
+
+
+### Data Models.
 
 Existing species interaction data models can be categorized in pairwise, n-ary and network interaction models. The table (XXX) of GloBI’s registry of existing species interaction datasets provides examples on how species interaction data are modeled and capture in digital data formats. 
 
@@ -31,7 +46,7 @@ A flexible data model to capture the pairwise, n-ary and network models can be c
 
 As an example, the figure above shows a traditional network model expressed in a collection of pairwise interactions. A similar exercise can be done for n-ary interactions as well as interaction that are associated with physical specimens, observation time, geospatial coordinates, bibiographic references and dataset provenance. 
 
-### Interaction Data Formats
+### Data Formats
 
 The discussed interaction data models can be recorded, or expressed in, various ways. Before the digital era, natural language, tables and diagrams were used to record species interactions. In the digital era, digital representation of natural language (e.g., a digital file with Spanish text), tables (comma separated values text files, Excel spreadsheets) and diagrams (e.g., bitmap images, vector graphics) are still commonly used. In fact, natural language (aka free form text) and tables in digital form are still the dominant method to capture species interactions (see figure XX). A relatively recent 21st century development are structured text formats like JSON, XML, and RDF. While the nested, pair-wise interaction data model can be expressed in English (as evidenced in this text), tables, and diagrams, formats JSON, XML and RDF seem more suitable **for some** to intuitively capture the complexities of nested, or grouped pairwise interactions and their assocations.
 
@@ -108,7 +123,11 @@ As you can see, unlike tabular formats, the RDF format is not designed for wides
 
 As the examples above show, information structured in an aggregate pair-wise interaction model can be expressed in many different data formats, without losing too much of the information or structure. When attempting to combine many different species interaction datasets, care should be taken to adopt file formats that cater to the community that will work with the data. While it is tempting to choose settle on one specific file format, the reality is that many data formats should be used to cover all the possible use cases. This is the reason why many projects, including GloBI, offer various data formats: tsv/csv archives for scientists and data analysts, rdf/nquads for semantic web enthousiasts, darwin core archives for biodiversity aggregator infrastructures, neo4j data dumps for software engineers and JSON fragments for web developers. 
 
-Similarly, different researchers express their datasets in various format. As can be seen in table XX, many single-table, multi-table, darwin core archives, rdf and json is used to capture species interaction data. The wide spread adaption of spreadsheet applications in the research community, makes tabular data formats an intuitive choice for researchers to capture species interaction data. A recent article by Poisot et al. (review article by Dalmas et al. 2018, https://doi.org/10.1111/brv.12433) also suggested that interactions should be captured in pair-wise interactions to allow for flexible data modeling. In addition, many (references) argue that existing ontologies and term dictionaries should be used to clearly define the constructs and terms used in species interaction datasets. So, without have to repeat the many details on proposed best practices for biodiversity data (see Alex Hardisty manifesto), and realizing that adoption of standards in a scattered community is a gradual process, the following best practices are proposed for the publication of species interaction datasets:
+Similarly, different researchers express their datasets in various format. As can be seen in table XX, many single-table, multi-table, darwin core archives, rdf and json is used to capture species interaction data. The wide spread adaption of spreadsheet applications in the research community, makes tabular data formats an intuitive choice for researchers to capture species interaction data. A recent article by Poisot et al. (review article by Dalmas et al. 2018, https://doi.org/10.1111/brv.12433) also suggested that interactions should be captured in pair-wise interactions to allow for flexible data modeling. In addition, many (references) argue that existing ontologies and term dictionaries should be used to clearly define the constructs and terms used in species interaction datasets. 
+
+### Best Practices
+
+Without have to repeat the many details on proposed best practices for biodiversity data (see Alex Hardisty manifesto, FAIR), and realizing that adoption of standards in a scattered community is a gradual process, the following best practices are proposed for the publication of species interaction datasets:
 
 0. first and foremost, try to re-use the data models, data formats and datasets of your colleagues.
 1. use the aggregate pair-wise interactions data model to organize your data
@@ -116,8 +135,12 @@ Similarly, different researchers express their datasets in various format. As ca
 3. review and adopt existing data formats before inventing your own. 
 4. review and adopt existing ontologies and term dictionaries before inventing your own
 5. use a data format that you can read, edit and write with a text editor. In addition, adopt powertools when convenient. Note a spreadsheet application is not a text editor, more like a powertool.
-6. publicly register a preliminary dataset with existing infrastructures like GBIF, GloBI, Mangal or EBV-based processing pipelines as early as possible.
-7. engage in discussions in existing workshops, conferences and professional societies on how to better structure your research data for re-use.
+6. publicly register a preliminary dataset with existing infrastructures like GBIF, GloBI, Mangal or EBV-based processing pipelines as early as possible to leverage automated peer review algorithms early.
+7. engage in discussions in existing workshops, conferences and professional societies on how to better structure your research data for re-use: don't wait for standard bodies to come up with the magic solutions.
 8. treat the datasets you produce and use just like you would a research paper
+
+The proposed best practices are to mitigate the current bottlenecks of establishing a comprehensive corpus of openly accessible, re-usable, publication of species interaction datasets, namely: 1. the under-utilization of readily available datasets 2. gridlock caused by researchers waiting for standards bodies to come up with data model/format solutions, while standards bodies are unable to access or articulate use cases. 3. the impracticality of implementing well intentioned and complex guidelines such as the [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples) by individual researchers or smaller institutions. 4. slow, expensive, error prone, non-reproducible, adhoc and manual peer review processes for data publications.
+
+### Conclusion
 
 In summary, roughly three species interaction data models (pairwise, n-ary, and network models) are currently used to capture species interaction data. Also, various data formats are in active use to record species interaction data. To facilitate data integration researchers are encouraged to implement data best practices to help work towards more standardized way to record species interaction data. These best practices includes expressing interaction data in terms of aggregate pairwise interactions, using text-based file formats and re-using the work of others. Infrastructures like GloBI have shown that we can provide a rich collection of aggregated species interaction records source from pre-existing heterogenous datasets with a wide variety in data formats. As we are slowely moving towards a more standardized and efficient approach to capture species interaction data, we are confident that we can compile past and current datasets into EBV-ready datasets using readily available data models, data formats and integration methods. 
