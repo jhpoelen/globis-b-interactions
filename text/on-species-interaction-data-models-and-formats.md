@@ -16,7 +16,7 @@
 
 In the following sections, we discuss commonly used species interaction data models and propose a model that is best suited to deal with the complex nature of species interaction data. Following, we discuss some data formats, and propose best practices for publishing species interaction datasets to help increase the availability of species interaction datasets. 
 
-Please note that the phrase species interactions is commonly used in the community for what are technically _biotic_ interactions. However, rather than trying to convince existing practitioners to change their language, the phrase species interaction is used in the following text.
+Please note that the phrase *species interactions* is commonly used in the community for what are technically _biotic_ interactions. However, rather than trying to convince (or confuse) a large cohert of existing practitioners to change their language, the phrase species interaction is used in the following text.
 
 
 ### Data Models
