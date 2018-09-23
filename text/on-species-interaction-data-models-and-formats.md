@@ -155,10 +155,11 @@ Without have to repeat the many details on proposed best practices for biodivers
 
 The proposed best practices are to mitigate the current bottlenecks of establishing a comprehensive corpus of openly accessible, re-usable, publication of species interaction datasets, namely: 
 
-1. the under-utilization of readily available datasets 
-2. gridlock caused by researchers waiting for standards bodies to come up with data model/format solutions, while standards bodies are unable to access or articulate use cases. 
-3. the impracticality of implementing well intentioned and complex guidelines such as the [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples) by individual researchers or smaller institutions. 
-4. slow, expensive, error prone, non-reproducible, adhoc and manual peer review processes for data publications.
+1. Under-utilization of readily available datasets. 
+2. Gridlock caused by researchers waiting for standards bodies to come up with data model/format solutions, while standards bodies are unable to access or articulate use cases. 
+2. Analysis paralysis caused by attempting to solve all data integration problems at once and for everyone. 
+3. Impracticality of implementing well-intentioned and complex guidelines such as the [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples) by individual researchers or smaller institutions. 
+4. Slow, expensive, error prone, non-reproducible, adhoc and manual peer review processes for data publications.
 
 ### Summary
 
