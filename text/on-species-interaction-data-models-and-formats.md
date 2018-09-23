@@ -1,4 +1,4 @@
-## On species interaction data models and data formats.
+## On Species Interaction Data Models and Data Formats
 
 [```Introduction```](#introduction) [```Definitions```](#definitions) [```Data Models```](#data-models) [```Data Formats```](#data-formats) [```Best Practices```](#best-practices) [```Summary```](#summary)
 
@@ -6,11 +6,11 @@
 
 ### Definitions
 
- * An *interaction* (from http://purl.obolibrary.org/obo/RO_0002434) : ```A relationship that holds between two entities in which the processes executed by the two entities are causally connected.```
- * A *biotic interaction* from http://purl.obolibrary.org/obo/RO_0002574 : ```An interaction relationship in which at least one of the partners is an organism and the other is either an organism or an abiotic entity with which the organism interacts.``` 
- * A *species interaction* describes two species that interact, a specialized form of a biotic interaction.
- * A *data model* is a conceptual representation of pieces of information and how their relate to each other. 
- * A *data format* is used to physically store information. 
+ * An **interaction** [RO:0002434](http://purl.obolibrary.org/obo/RO_0002434) : ```A relationship that holds between two entities in which the processes executed by the two entities are causally connected.```
+ * A **biotic interaction** [RO:0002574](http://purl.obolibrary.org/obo/RO_0002574) : ```An interaction relationship in which at least one of the partners is an organism and the other is either an organism or an abiotic entity with which the organism interacts.``` 
+ * A **species interaction** describes two species that interact, a specialized form of a biotic interaction.
+ * A **data model** is a conceptual representation of pieces of information and how their relate to each other. 
+ * A **data format** is used to physically store information. 
 
 ### Introduction
 
