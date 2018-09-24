@@ -1,6 +1,6 @@
 ## On Species Interaction Data Models and Data Formats
 
-[```Introduction```](#introduction) [```Definitions```](#definitions) [```Data Models```](#data-models) [```Data Formats```](#data-formats) [```Best Practices```](#best-practices) [```Bottlenecks```](#bottlenecks) [```Summary```](#summary)
+[```Introduction```](#introduction) / [```Definitions```](#definitions) / [```Data Models```](#data-models) / [```Data Formats```](#data-formats) / [```Best Practices```](#best-practices) / [```Bottlenecks```](#bottlenecks) / [```Summary```](#summary)
 
 (early draft)
 
