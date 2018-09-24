@@ -149,7 +149,7 @@ Without having to repeat the many details on proposed best practices for biodive
 5. Use a data format that you can read, edit and write with a text editor. In addition, adopt powertools when convenient. Note a spreadsheet application is not a text editor, more like a powertool.
 6. Publicly register a preliminary dataset with existing infrastructures like GBIF, GloBI, Mangal or EBV-based processing pipelines as early as possible to leverage automated peer review algorithms early.
 7. Engage in discussions in existing workshops, conferences and professional societies on how to better structure your research data for re-use: don't wait for standard bodies to come up with the magic solutions.
-8. Treat the datasets you produce _and use_ just like you would a research paper
+8. Treat the datasets you produce _and use_ just like you would a research paper.
 
 ### Bottlenecks
 
