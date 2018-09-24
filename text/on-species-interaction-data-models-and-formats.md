@@ -131,7 +131,7 @@ network id | sourceTaxonId | sourceTaxonName | sourceTaxonCommonName | interacti
 1 | https://www.wikidata.org/wiki/Q41407 | Enhydra lutris | sea otter | | huntedBy | https://www.wikidata.org/wiki/Q15978631 | Homo sapiens | humans
 … | … | … | …
 
-Additionally, an associated meta-table with the columns definitions can be provided to further increase the machine readability of species interaction data. Note that an identifier for ```huntedBy``` was intentionally left out to indicate that ids or names can be left blank if they are not yet known. These "hybrid" tabular formats are currently used as [dataset template](https://github.com/globalbioticinteractions/dataset-template) by GloBI as a way to balance the familiarity of tabular formats with the machine readability of identifiers.
+Additionally, an associated meta-table with the columns definitions can be provided to further increase the machine readability of species interaction data. Note that an identifier for ```huntedBy``` was intentionally left out to indicate that ids or names can be left blank if they are not yet known. These "hybrid" tabular formats are currently used as [dataset template](https://github.com/globalbioticinteractions/template-dataset) by GloBI as a way to balance the familiarity of tabular formats with the machine readability of identifiers.
 
 As the examples above show, information structured in an aggregate pair-wise interaction model can be expressed in many different data formats, without losing too much of the information or structure. When attempting to combine many different species interaction datasets, care should be taken to adopt file formats that cater to the community that will work with the data. While it is tempting to choose settle on one specific file format, the reality is that many data formats should be used to cover all the possible use cases. This is the reason why many projects, including GloBI, offer various data formats: tsv/csv archives for scientists and data analysts, rdf/nquads for semantic web enthousiasts, darwin core archives for biodiversity aggregator infrastructures, neo4j data dumps for software engineers and JSON fragments for web developers. 
 
@@ -146,7 +146,7 @@ Without having to repeat the many details on proposed best practices for biodive
 2. Use text based formats in UTF-8 encoding with unix line endings.
 3. Review and adopt existing data formats before inventing your own. 
 4. Review and adopt existing ontologies and term dictionaries before inventing your own.
-5. Use a data format that you can read, edit and write with a text editor. In addition, adopt powertools when convenient. Note a spreadsheet application is not a text editor, more like a powertool.
+5. Use a data format that you can read, edit and write with a text editor. In addition, adopt powertools when convenient. Note that a spreadsheet application is not a text editor, more like a powertool.
 6. Publicly register a preliminary dataset with existing infrastructures like GBIF, GloBI, Mangal or EBV-based processing pipelines as early as possible to leverage automated peer review algorithms early.
 7. Engage in discussions in existing workshops, conferences and professional societies on how to better structure your research data for re-use: don't wait for standard bodies to come up with the magic solutions.
 8. Treat the datasets you produce _and use_ just like you would a research paper.
