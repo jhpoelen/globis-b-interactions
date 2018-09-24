@@ -141,15 +141,15 @@ Similarly, different researchers express their datasets in various format. As ca
 
 Without having to repeat the many details on proposed best practices for biodiversity data (see Alex Hardisty manifesto, FAIR), and realizing that adoption of standards in a scattered community is a gradual process, the following best practices are proposed for the publication of species interaction datasets:
 
-0. first and foremost, try to re-use the data models, data formats and datasets of your colleagues.
-1. use the aggregate pair-wise interactions data model to organize your data
-2. use text based formats in UTF-8 encoding
-3. review and adopt existing data formats before inventing your own. 
-4. review and adopt existing ontologies and term dictionaries before inventing your own
-5. use a data format that you can read, edit and write with a text editor. In addition, adopt powertools when convenient. Note a spreadsheet application is not a text editor, more like a powertool.
-6. publicly register a preliminary dataset with existing infrastructures like GBIF, GloBI, Mangal or EBV-based processing pipelines as early as possible to leverage automated peer review algorithms early.
-7. engage in discussions in existing workshops, conferences and professional societies on how to better structure your research data for re-use: don't wait for standard bodies to come up with the magic solutions.
-8. treat the datasets you produce and use just like you would a research paper
+0. First and foremost, try to re-use the data models, data formats and datasets of your colleagues.
+1. Use the aggregate pair-wise interactions data model to organize your data.
+2. Use text based formats in UTF-8 encoding with unix line endings.
+3. Review and adopt existing data formats before inventing your own. 
+4. Review and adopt existing ontologies and term dictionaries before inventing your own.
+5. Use a data format that you can read, edit and write with a text editor. In addition, adopt powertools when convenient. Note a spreadsheet application is not a text editor, more like a powertool.
+6. Publicly register a preliminary dataset with existing infrastructures like GBIF, GloBI, Mangal or EBV-based processing pipelines as early as possible to leverage automated peer review algorithms early.
+7. Engage in discussions in existing workshops, conferences and professional societies on how to better structure your research data for re-use: don't wait for standard bodies to come up with the magic solutions.
+8. Treat the datasets you produce _and use_ just like you would a research paper
 
 ### Bottlenecks
 
