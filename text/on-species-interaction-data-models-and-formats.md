@@ -139,7 +139,7 @@ Similarly, different researchers express their datasets in various format. As ca
 
 ### Best Practices
 
-Without having to repeat the many details on proposed best practices for biodiversity data (see Alex Hardisty manifesto, [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples), Penev et al. 2017 http://dx.doi.org/10.3897/rio.3.e12431 ), and realizing that adoption of standards in a scattered community is a gradual process, the following best practices are proposed for the publication of species interaction datasets:
+Without having to repeat the many details on proposed best practices for biodiversity data (see Alex Hardisty manifesto, [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples), [FAIR revisited](https://doi.org/10.3233/ISU-170824), Penev et al. 2017 http://dx.doi.org/10.3897/rio.3.e12431 ), and realizing that adoption of standards in a scattered community is a gradual process, the following best practices are proposed for the publication of species interaction datasets:
 
 0. First and foremost, try to re-use the data models, data formats and datasets of your colleagues.
 1. Use the aggregate pair-wise interactions data model to organize your data.
