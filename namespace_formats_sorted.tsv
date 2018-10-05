@@ -27,6 +27,7 @@ globalbioticinteractions/dunne2016SanakIntertidal	dunne	multi-table
 globalbioticinteractions/dunne2016SanakNearshore	dunne	multi-table
 globalbioticinteractions/ferrer-paris	ferrer-paris	single table
 globalbioticinteractions/fishbase	fishbase	multi-table
+globalbioticinteractions/gandhi2009	globi	single table
 globalbioticinteractions/gemina	gemina	single table
 globalbioticinteractions/globalwebdb	globalwebdb	single table
 globalbioticinteractions/gray2015	gray	single table
@@ -58,6 +59,7 @@ globalbioticinteractions/strona	strona	single table
 globalbioticinteractions/szoboszlai2015	szoboszlai	multi-table
 globalbioticinteractions/template-dataset	globi	single table
 globalbioticinteractions/thieltges2011	hechinger	multi-table
+globalbioticinteractions/virus-host-db	globi	single table
 globalbioticinteractions/web-of-life	web-of-life	multi-table
 globalbioticinteractions/wood2015	wood	single table
 globalbioticinteractions/zander2011	hechinger	multi-table
@@ -74,6 +76,7 @@ hurlbertlab/dietdatabase	hurlbert	single table
 jhammock/Layman-and-Allgeier-Lionfish	globi	single table
 jhpoelen/data	globi	single table
 jhpoelen/geosymbio	globi	single table
+jhpoelen/JLewis_GoMexSi	gomexsi	multi-table
 jhpoelen/uredinales-belgium-checklist	globi	single table
 KatjaSchulz/dinosaur-biotic-interactions	globi	single table
 kinseyfish/dietdatabase	hurlbert	single table
@@ -138,6 +141,7 @@ millerse/Wenzel-Tipton-Classified-List-of-Hosts-and-Parasites	globi	single table
 millerse/Wharton-and-Marsh-1978.-New-World-Opiinae	globi	single table
 millerse/Zika-Virus	globi	single table
 NASUA/ZalophusPredatoryInteractions	globi	single table
+ParasiteTracker/vampire-moth-dwca	dwca	dwca
 ParasiteTracker/vampire-moths-and-their-fruit-piercing-relatives-Occurrence-Records	globi	single table
 PHI-base/data	globi	single table
 seltmann/ParasiteTracker-Globi	globi	single table

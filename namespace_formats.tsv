@@ -145,3 +145,7 @@ seltmann/vampire-moth-globi	globi	single table
 seltmann/template-dataset	globi	single table
 millerse/Zika-Virus	globi	single table
 tkuhn/template-dataset	globi	single table
+globalbioticinteractions/gandhi2009	globi	single table
+globalbioticinteractions/virus-host-db	globi	single table
+jhpoelen/JLewis_GoMexSi	gomexsi	multi-table
+ParasiteTracker/vampire-moth-dwca	dwca	dwca
