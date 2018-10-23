@@ -55,7 +55,7 @@ As an example, the figure above shows a traditional network model expressed in a
 
 #### Claims Supporting Or Refuting Interactions
 
-In cases where negative or negated interactions are used, the below approach can be taken. Rather than introducing explicit "not" interactions (e.g., Humans do *not* parasitize insects), an interaction is described (e.g., Humans parasitize insects) with a reference to a study that refutes the described interactions. This way, the existing interaction types can be re-used while explicitly refuting the interaction claim.
+In cases where claims are made that specific interactions are unlikely to occur, the below approach can be taken. Rather than introducing explicit "not" interactions (e.g., Humans do *not* parasitize insects), an interaction is described (e.g., Humans parasitize insects) with a reference to a study that refutes the described interactions. This way, the existing interaction types can be re-used while explicitly refuting the interaction claim.
 
 The example below uses the n-ary example used earlier, extending it to include the "supports" and "refutes" associations with authorities / claims.
 
