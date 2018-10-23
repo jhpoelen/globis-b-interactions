@@ -24,14 +24,18 @@ Please note that the phrase *species interactions* is commonly used in the commu
 
 Existing species interaction data models can be categorized in pairwise, n-ary and network interaction models. The table (XXX) of GloBI’s registry of existing species interaction datasets provides examples on how species interaction data are modeled and capture in digital data formats. 
 
+#### Pairwise Interactions
+
 ![pairwise](https://raw.githubusercontent.com/jhpoelen/globis-b-interactions/master/figures/pairwise.png)
 
 Pairwise data models describe an interaction as an association between two taxa, two individual organisms or a mix of the two. An example would be the statement: "this sea otter ate that crab". (e.g., TODO cite fisheries diet databases).
 
+#### N-ary Interactions
 ![n-ary](https://raw.githubusercontent.com/jhpoelen/globis-b-interactions/master/figures/n-ary.png)
 
 An n-ary interaction describes 2 or more taxa or individual organisms that interact with each other as part of a process. An example of this is a statement like: "this mosquito is a vector of a Plasmodium falciparum.  P. Falciparum is a pathogen of humans. The mosquito feeds on the blood of humans." By grouping the various interactions, a process can be described, in this case a malaria infection of humans via mosquitos. (e.g., cite crop diseases, seed dispersal datasets)
 
+#### Interaction Network
 ![network](https://raw.githubusercontent.com/jhpoelen/globis-b-interactions/master/figures/network.png)
 
 Similarly, a network interaction data model captures a complete description of all interactions in a specific community of interacting species (i.e. taxon-level) for a specific localized niche and interaction type (e.g., cite specific a pollinator network dataset). 
@@ -42,12 +46,16 @@ In reality, studies often use a mix of the various data models to express the ki
 
 A flexible data model to capture the pairwise, n-ary and network models can be constructed by non-exclusive grouping and nesting of pairwise-wise interactions (reference Dalmas et al. 2018, https://doi.org/10.1111/brv.12433). These pairwise interaction building blocks describe a directional interaction type (e.g., pathogen-host). At each end of the directional interaction, a source and target is identified. This source and target describes the interacting organisms.  The interactions can then be grouped as a process (vector-pathogen-host), by time/location/study (a specific pollinator network constructed by scientists xyz from data obtained at a specific place in time), or spatial domain (a specific group of diet items found in the stomach of a fish). Also, other qualities associated with the interaction (e.g., bibliograph reference, measurement method, evidence type, specimen identifier) can be added. A simplified version of this general model is used by GloBI (and mangal) to integrate the various kind of pairwise, n-ary and network models. 
 
+#### Interaction Networks As Pairwise Interactions
+
 ![network-as-pairwise.png](https://raw.githubusercontent.com/jhpoelen/globis-b-interactions/master/figures/network-as-pairwise.png)
 
 
 As an example, the figure above shows a traditional network model expressed in a collection of pairwise interactions. A similar exercise can be done for n-ary interactions as well as interaction that are associated with physical specimens, observation time, geospatial coordinates, bibiographic references and dataset provenance. 
 
 In cases where negative or negated interactions are used, the below approach can be taken. Rather than introducing explicit "not" interactions (e.g., Humans do *not* parasitize insects), an interaction is described (e.g., Humans parasitize insects) with a reference to a study that refutes the described interactions. This way, the existing interaction types can be re-used while explicitly refuting the interaction claim.
+
+#### Supporting Or Refuting Interactions
 
 The example below uses the n-ary example used earlier, extending it to include the "supports" and "refutes" associations with authorities / claims.
 
