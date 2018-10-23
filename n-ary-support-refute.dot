@@ -1,0 +1,37 @@
+digraph pairwise {
+    #rankdir=LR;
+    labelloc="t";
+    label="n-ary interaction\nn=3\nsupports / refutes";
+    a1 [label="some mosquito"];
+    b1 [label="some Plasmodium falciparum"];
+    c1 [label="some human"];
+    d1 [label="some malaria infection process"];
+
+    a1 -> b1 [label="vectorOf"];
+    b1 -> c1 [label="pathogenOf"];
+    a1 -> c1 [label="parasiteOf"];
+
+    a1 -> d1 [label="participates in"];
+    b1 -> d1 [label="participates in"];
+    c1 -> d1 [label="participates in"];
+
+    s1 [label="Doe J et al. 2018"];
+    s1 -> d1 [label="supports"];
+
+    a2 [label="some mosquito"];
+    b2 [label="some Plasmodium falciparum"];
+    c2 [label="some human"];
+    d2 [label="some malaria infection process"];
+
+    a2 -> b2 [label="vectorOf"];
+    b2 -> c2 [label="pathogenOf"];
+    a2 -> c2 [label="parasiteOf"];
+
+    a2 -> d2 [label="participates in"];
+    b2 -> d2 [label="participates in"];
+    c2 -> d2 [label="participates in"];
+
+    s2 [label="Smith J et al. 1927"]
+    s2 -> d2 [label="refutes"];
+}
+

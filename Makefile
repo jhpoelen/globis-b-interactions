@@ -19,3 +19,4 @@ figures/pairwise.png:
 	dot -Tpng n-ary.dot > figures/n-ary.png
 	dot -Tpng network.dot > figures/network.png
 	dot -Tpng network-as-pairwise.dot > figures/network-as-pairwise.png
+	dot -Tpng n-ary-support-refute.dot > figures/n-ary-support-refute.png
