@@ -59,7 +59,7 @@ In cases where negative or negated interactions are used, the below approach can
 
 The example below uses the n-ary example used earlier, extending it to include the "supports" and "refutes" associations with authorities / claims.
 
-![n-ary-support-refute.png][https://raw.githubusercontent.com/jhpoelen/globis-b-interactions/master/figures/n-ary-support-refute.png).
+![n-ary-support-refute.png](https://raw.githubusercontent.com/jhpoelen/globis-b-interactions/master/figures/n-ary-support-refute.png).
 
 ### Data Formats
 
