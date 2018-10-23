@@ -57,7 +57,7 @@ As an example, the figure above shows a traditional network model expressed in a
 
 In cases where claims are made that specific interactions are unlikely to occur, the below approach can be taken. Rather than introducing explicit "not" interactions (e.g., Humans do *not* parasitize insects), an interaction is described (e.g., Humans parasitize insects) with a reference to a study that refutes the described interactions. This way, the existing interaction types can be re-used while explicitly refuting the interaction claim.
 
-The example below uses the n-ary example used earlier, extending it to include the "supports" and "refutes" associations with authorities / claims.
+The example below uses the n-ary example used earlier, extending it to include the "supports" and "refutes" associations with authorities / claims. In the example, a specific claim by Doe J et al. 2018 supports a specific malaria infection process based on individuals, whereas Smith J et al. 1927 refutes a specific claim of another specific malaria infection process. With this, inferences can be made by reasoning that Smith et al. refutes a claim similar to the one made by Doe J et al.. So, by inference, Smith et al. refutes a claim that Doe et al. made in 2018. 
 
 ![n-ary-support-refute.png](https://raw.githubusercontent.com/jhpoelen/globis-b-interactions/master/figures/n-ary-support-refute.png).
 

@@ -33,5 +33,6 @@ digraph pairwise {
 
     s2 [label="Smith J et al. 1927"]
     s2 -> d2 [label="refutes"];
+    s2 -> d1 [label="refutes (inferred)", style="dotted"]; 
 }
 
