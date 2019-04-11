@@ -88,6 +88,7 @@ However, a more intuitive format for some, particularly web developers, may be:
 
 where the any of the terms (e.g., source, target) may even consist of a nested structure describing the properties of the sea urchin like the taxonomic classification, location, lifestage and body size. 
 
+#### rdf
 For a more formal description, the flexible, yet precise, resource definition framework (RDF, https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/) can be used in combination with existing ontologies and controlled terms. A relatively "simple" example looks something like:
 
 ```
